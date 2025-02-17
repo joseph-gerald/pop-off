@@ -1,4 +1,5 @@
 let clients = [];
+let sessions = {};
 
 function handleConnection(client, request) {
     const headers = request.headers;
